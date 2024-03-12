@@ -3,14 +3,12 @@
     "maxVersionMinor": 16,
     "maxVersionPatch": 210,
     "maxVersionRevision": 3,
-    "addedProperties": {
-        "minecraft:frame": {
-            "item_frame_photo_bit": {
+    "addedProperties2": {
+        "item_frame_photo_bit": {
+            "minecraft:frame": {
                 "byte": 0
-            }
-        },
-        "minecraft:glow_frame": {
-            "item_frame_photo_bit": {
+            },
+            "minecraft:glow_frame": {
                 "byte": 0
             }
         }

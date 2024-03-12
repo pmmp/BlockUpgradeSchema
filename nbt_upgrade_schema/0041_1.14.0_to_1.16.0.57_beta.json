@@ -3,27 +3,35 @@
     "maxVersionMinor": 16,
     "maxVersionPatch": 0,
     "maxVersionRevision": 0,
-    "addedProperties": {
-        "minecraft:cobblestone_wall": {
-            "wall_connection_type_east": {
-                "string": "none"
-            },
-            "wall_connection_type_north": {
-                "string": "none"
-            },
-            "wall_connection_type_south": {
-                "string": "none"
-            },
-            "wall_connection_type_west": {
-                "string": "none"
-            },
-            "wall_post_bit": {
-                "byte": 0
+    "addedProperties2": {
+        "rotation": {
+            "minecraft:jigsaw": {
+                "int": 0
             }
         },
-        "minecraft:jigsaw": {
-            "rotation": {
-                "int": 0
+        "wall_connection_type_east": {
+            "minecraft:cobblestone_wall": {
+                "string": "none"
+            }
+        },
+        "wall_connection_type_north": {
+            "minecraft:cobblestone_wall": {
+                "string": "none"
+            }
+        },
+        "wall_connection_type_south": {
+            "minecraft:cobblestone_wall": {
+                "string": "none"
+            }
+        },
+        "wall_connection_type_west": {
+            "minecraft:cobblestone_wall": {
+                "string": "none"
+            }
+        },
+        "wall_post_bit": {
+            "minecraft:cobblestone_wall": {
+                "byte": 0
             }
         }
     }

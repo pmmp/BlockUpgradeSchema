@@ -14,37 +14,37 @@
         "minecraft:stone_slab3": "minecraft:stone_block_slab3",
         "minecraft:stone_slab4": "minecraft:stone_block_slab4"
     },
-    "addedProperties": {
-        "minecraft:mangrove_propagule": {
-            "hanging": {
+    "addedProperties2": {
+        "can_summon": {
+            "minecraft:sculk_shrieker": {
                 "byte": 0
-            },
-            "propagule_stage": {
-                "int": 0
             }
         },
-        "minecraft:mangrove_propagule_hanging": {
-            "hanging": {
+        "hanging": {
+            "minecraft:mangrove_propagule": {
+                "byte": 0
+            },
+            "minecraft:mangrove_propagule_hanging": {
                 "byte": 1
-            },
-            "propagule_stage": {
-                "int": 0
             }
         },
-        "minecraft:sculk_shrieker": {
-            "can_summon": {
-                "byte": 0
+        "propagule_stage": {
+            "minecraft:mangrove_propagule": {
+                "int": 0
+            },
+            "minecraft:mangrove_propagule_hanging": {
+                "int": 0
             }
         }
     },
-    "removedProperties": {
-        "minecraft:mangrove_propagule": [
-            "facing_direction",
-            "growth"
+    "removedProperties2": {
+        "facing_direction": [
+            "minecraft:mangrove_propagule",
+            "minecraft:mangrove_propagule_hanging"
         ],
-        "minecraft:mangrove_propagule_hanging": [
-            "facing_direction",
-            "growth"
+        "growth": [
+            "minecraft:mangrove_propagule",
+            "minecraft:mangrove_propagule_hanging"
         ]
     }
 }

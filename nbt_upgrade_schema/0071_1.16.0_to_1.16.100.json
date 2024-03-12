@@ -3,27 +3,23 @@
     "maxVersionMinor": 16,
     "maxVersionPatch": 0,
     "maxVersionRevision": 16,
-    "addedProperties": {
-        "minecraft:chain": {
-            "pillar_axis": {
+    "addedProperties2": {
+        "pillar_axis": {
+            "minecraft:chain": {
                 "string": "y"
             }
         }
     },
-    "renamedProperties": {
-        "minecraft:bee_nest": {
-            "facing_direction": "direction"
-        },
-        "minecraft:beehive": {
-            "facing_direction": "direction"
+    "renamedProperties2": {
+        "facing_direction": {
+            "minecraft:bee_nest": "direction",
+            "minecraft:beehive": "direction"
         }
     },
-    "remappedPropertyValues": {
-        "minecraft:bee_nest": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:beehive": {
-            "facing_direction": "facing_direction_00"
+    "remappedPropertyValues2": {
+        "facing_direction": {
+            "minecraft:bee_nest": "facing_direction_00",
+            "minecraft:beehive": "facing_direction_00"
         }
     },
     "remappedPropertyValuesIndex": {

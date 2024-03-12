@@ -3,9 +3,9 @@
     "maxVersionMinor": 15,
     "maxVersionPatch": 0,
     "maxVersionRevision": 0,
-    "renamedProperties": {
-        "minecraft:kelp": {
-            "age": "kelp_age"
+    "renamedProperties2": {
+        "age": {
+            "minecraft:kelp": "kelp_age"
         }
     }
 }

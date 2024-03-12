@@ -3,284 +3,130 @@
     "maxVersionMinor": 14,
     "maxVersionPatch": 0,
     "maxVersionRevision": 3,
-    "addedProperties": {
-        "minecraft:coral": {
-            "dead_bit": {
+    "addedProperties2": {
+        "dead_bit": {
+            "minecraft:coral": {
                 "byte": 0
             }
         },
-        "minecraft:wood": {
-            "pillar_axis": {
+        "pillar_axis": {
+            "minecraft:wood": {
                 "string": "y"
             }
         }
     },
-    "renamedProperties": {
-        "minecraft:bone_block": {
-            "direction": "pillar_axis"
+    "renamedProperties2": {
+        "direction": {
+            "minecraft:bone_block": "pillar_axis",
+            "minecraft:hay_block": "pillar_axis",
+            "minecraft:purpur_block": "pillar_axis",
+            "minecraft:quartz_block": "pillar_axis",
+            "minecraft:stripped_acacia_log": "pillar_axis",
+            "minecraft:stripped_birch_log": "pillar_axis",
+            "minecraft:stripped_dark_oak_log": "pillar_axis",
+            "minecraft:stripped_jungle_log": "pillar_axis",
+            "minecraft:stripped_oak_log": "pillar_axis",
+            "minecraft:stripped_spruce_log": "pillar_axis"
         },
-        "minecraft:frame": {
-            "weirdo_direction": "facing_direction"
+        "facing_direction": {
+            "minecraft:lever": "lever_direction"
         },
-        "minecraft:hay_block": {
-            "direction": "pillar_axis"
-        },
-        "minecraft:lever": {
-            "facing_direction": "lever_direction"
-        },
-        "minecraft:purpur_block": {
-            "direction": "pillar_axis"
-        },
-        "minecraft:quartz_block": {
-            "direction": "pillar_axis"
-        },
-        "minecraft:stripped_acacia_log": {
-            "direction": "pillar_axis"
-        },
-        "minecraft:stripped_birch_log": {
-            "direction": "pillar_axis"
-        },
-        "minecraft:stripped_dark_oak_log": {
-            "direction": "pillar_axis"
-        },
-        "minecraft:stripped_jungle_log": {
-            "direction": "pillar_axis"
-        },
-        "minecraft:stripped_oak_log": {
-            "direction": "pillar_axis"
-        },
-        "minecraft:stripped_spruce_log": {
-            "direction": "pillar_axis"
+        "weirdo_direction": {
+            "minecraft:frame": "facing_direction"
         }
     },
-    "remappedPropertyValues": {
-        "minecraft:acacia_button": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:acacia_wall_sign": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:activator_rail": {
-            "rail_direction": "rail_direction_00"
-        },
-        "minecraft:barrel": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:birch_button": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:birch_wall_sign": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:black_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:blast_furnace": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:blue_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:bone_block": {
-            "direction": "direction_00"
-        },
-        "minecraft:brown_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:cake": {
-            "bite_counter": "bite_counter_00"
-        },
-        "minecraft:cauldron": {
-            "fill_level": "fill_level_00"
-        },
-        "minecraft:chain_command_block": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:chest": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:chorus_flower": {
-            "age": "age_00"
-        },
-        "minecraft:cocoa": {
-            "age": "age_01"
-        },
-        "minecraft:command_block": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:composter": {
-            "composter_fill_level": "composter_fill_level_00"
-        },
-        "minecraft:cyan_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:dark_oak_button": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:darkoak_wall_sign": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:detector_rail": {
-            "rail_direction": "rail_direction_00"
-        },
-        "minecraft:dispenser": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:dropper": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:ender_chest": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:frame": {
-            "weirdo_direction": "weirdo_direction_00"
-        },
-        "minecraft:furnace": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:golden_rail": {
-            "rail_direction": "rail_direction_00"
-        },
-        "minecraft:gray_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:green_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:hay_block": {
-            "direction": "direction_00"
-        },
-        "minecraft:hopper": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:jigsaw": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:jungle_button": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:jungle_wall_sign": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:ladder": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:lava_cauldron": {
-            "fill_level": "fill_level_00"
-        },
-        "minecraft:lever": {
-            "facing_direction": "facing_direction_01"
-        },
-        "minecraft:light_blue_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:lime_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:lit_blast_furnace": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:lit_furnace": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:lit_smoker": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:magenta_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:observer": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:orange_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:pink_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:piston": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:pistonArmCollision": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:purple_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:purpur_block": {
-            "direction": "direction_00"
-        },
-        "minecraft:quartz_block": {
-            "direction": "direction_00"
-        },
-        "minecraft:rail": {
-            "rail_direction": "rail_direction_01"
-        },
-        "minecraft:red_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:repeating_command_block": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:silver_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:skull": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:smoker": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:spruce_button": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:spruce_wall_sign": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:sticky_piston": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:stone_button": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:stonecutter_block": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:stripped_acacia_log": {
-            "direction": "direction_00"
-        },
-        "minecraft:stripped_birch_log": {
-            "direction": "direction_00"
-        },
-        "minecraft:stripped_dark_oak_log": {
-            "direction": "direction_00"
-        },
-        "minecraft:stripped_jungle_log": {
-            "direction": "direction_00"
-        },
-        "minecraft:stripped_oak_log": {
-            "direction": "direction_00"
-        },
-        "minecraft:stripped_spruce_log": {
-            "direction": "direction_00"
-        },
-        "minecraft:trapped_chest": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:wall_banner": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:wall_sign": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:white_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:wooden_button": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:yellow_glazed_terracotta": {
-            "facing_direction": "facing_direction_00"
+    "remappedPropertyValues2": {
+        "age": {
+            "minecraft:chorus_flower": "age_00",
+            "minecraft:cocoa": "age_01"
+        },
+        "bite_counter": {
+            "minecraft:cake": "bite_counter_00"
+        },
+        "composter_fill_level": {
+            "minecraft:composter": "composter_fill_level_00"
+        },
+        "direction": {
+            "minecraft:bone_block": "direction_00",
+            "minecraft:hay_block": "direction_00",
+            "minecraft:purpur_block": "direction_00",
+            "minecraft:quartz_block": "direction_00",
+            "minecraft:stripped_acacia_log": "direction_00",
+            "minecraft:stripped_birch_log": "direction_00",
+            "minecraft:stripped_dark_oak_log": "direction_00",
+            "minecraft:stripped_jungle_log": "direction_00",
+            "minecraft:stripped_oak_log": "direction_00",
+            "minecraft:stripped_spruce_log": "direction_00"
+        },
+        "facing_direction": {
+            "minecraft:acacia_button": "facing_direction_00",
+            "minecraft:acacia_wall_sign": "facing_direction_00",
+            "minecraft:barrel": "facing_direction_00",
+            "minecraft:birch_button": "facing_direction_00",
+            "minecraft:birch_wall_sign": "facing_direction_00",
+            "minecraft:black_glazed_terracotta": "facing_direction_00",
+            "minecraft:blast_furnace": "facing_direction_00",
+            "minecraft:blue_glazed_terracotta": "facing_direction_00",
+            "minecraft:brown_glazed_terracotta": "facing_direction_00",
+            "minecraft:chain_command_block": "facing_direction_00",
+            "minecraft:chest": "facing_direction_00",
+            "minecraft:command_block": "facing_direction_00",
+            "minecraft:cyan_glazed_terracotta": "facing_direction_00",
+            "minecraft:dark_oak_button": "facing_direction_00",
+            "minecraft:darkoak_wall_sign": "facing_direction_00",
+            "minecraft:dispenser": "facing_direction_00",
+            "minecraft:dropper": "facing_direction_00",
+            "minecraft:ender_chest": "facing_direction_00",
+            "minecraft:furnace": "facing_direction_00",
+            "minecraft:gray_glazed_terracotta": "facing_direction_00",
+            "minecraft:green_glazed_terracotta": "facing_direction_00",
+            "minecraft:hopper": "facing_direction_00",
+            "minecraft:jigsaw": "facing_direction_00",
+            "minecraft:jungle_button": "facing_direction_00",
+            "minecraft:jungle_wall_sign": "facing_direction_00",
+            "minecraft:ladder": "facing_direction_00",
+            "minecraft:lever": "facing_direction_01",
+            "minecraft:light_blue_glazed_terracotta": "facing_direction_00",
+            "minecraft:lime_glazed_terracotta": "facing_direction_00",
+            "minecraft:lit_blast_furnace": "facing_direction_00",
+            "minecraft:lit_furnace": "facing_direction_00",
+            "minecraft:lit_smoker": "facing_direction_00",
+            "minecraft:magenta_glazed_terracotta": "facing_direction_00",
+            "minecraft:observer": "facing_direction_00",
+            "minecraft:orange_glazed_terracotta": "facing_direction_00",
+            "minecraft:pink_glazed_terracotta": "facing_direction_00",
+            "minecraft:piston": "facing_direction_00",
+            "minecraft:pistonArmCollision": "facing_direction_00",
+            "minecraft:purple_glazed_terracotta": "facing_direction_00",
+            "minecraft:red_glazed_terracotta": "facing_direction_00",
+            "minecraft:repeating_command_block": "facing_direction_00",
+            "minecraft:silver_glazed_terracotta": "facing_direction_00",
+            "minecraft:skull": "facing_direction_00",
+            "minecraft:smoker": "facing_direction_00",
+            "minecraft:spruce_button": "facing_direction_00",
+            "minecraft:spruce_wall_sign": "facing_direction_00",
+            "minecraft:sticky_piston": "facing_direction_00",
+            "minecraft:stone_button": "facing_direction_00",
+            "minecraft:stonecutter_block": "facing_direction_00",
+            "minecraft:trapped_chest": "facing_direction_00",
+            "minecraft:wall_banner": "facing_direction_00",
+            "minecraft:wall_sign": "facing_direction_00",
+            "minecraft:white_glazed_terracotta": "facing_direction_00",
+            "minecraft:wooden_button": "facing_direction_00",
+            "minecraft:yellow_glazed_terracotta": "facing_direction_00"
+        },
+        "fill_level": {
+            "minecraft:cauldron": "fill_level_00",
+            "minecraft:lava_cauldron": "fill_level_00"
+        },
+        "rail_direction": {
+            "minecraft:activator_rail": "rail_direction_00",
+            "minecraft:detector_rail": "rail_direction_00",
+            "minecraft:golden_rail": "rail_direction_00",
+            "minecraft:rail": "rail_direction_01"
+        },
+        "weirdo_direction": {
+            "minecraft:frame": "weirdo_direction_00"
         }
     },
     "remappedPropertyValuesIndex": {

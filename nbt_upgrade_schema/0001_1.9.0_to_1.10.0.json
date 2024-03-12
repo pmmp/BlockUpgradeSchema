@@ -3,671 +3,253 @@
     "maxVersionMinor": 10,
     "maxVersionPatch": 0,
     "maxVersionRevision": 50,
-    "addedProperties": {
-        "minecraft:bell": {
-            "attachment": {
+    "addedProperties2": {
+        "attachment": {
+            "minecraft:bell": {
+                "string": "standing"
+            },
+            "minecraft:grindstone": {
                 "string": "standing"
             }
         },
-        "minecraft:bone_block": {
-            "deprecated": {
+        "deprecated": {
+            "minecraft:bone_block": {
                 "int": 0
-            }
-        },
-        "minecraft:grindstone": {
-            "attachment": {
-                "string": "standing"
-            }
-        },
-        "minecraft:hay_block": {
-            "deprecated": {
+            },
+            "minecraft:hay_block": {
                 "int": 0
             }
         }
     },
-    "removedProperties": {
-        "minecraft:bone_block": [
-            "mapped_type"
-        ],
-        "minecraft:element_0": [
-            "mapped_type"
-        ],
-        "minecraft:element_1": [
-            "mapped_type"
-        ],
-        "minecraft:element_10": [
-            "mapped_type"
-        ],
-        "minecraft:element_100": [
-            "mapped_type"
-        ],
-        "minecraft:element_101": [
-            "mapped_type"
-        ],
-        "minecraft:element_102": [
-            "mapped_type"
-        ],
-        "minecraft:element_103": [
-            "mapped_type"
-        ],
-        "minecraft:element_104": [
-            "mapped_type"
-        ],
-        "minecraft:element_105": [
-            "mapped_type"
-        ],
-        "minecraft:element_106": [
-            "mapped_type"
-        ],
-        "minecraft:element_107": [
-            "mapped_type"
-        ],
-        "minecraft:element_108": [
-            "mapped_type"
-        ],
-        "minecraft:element_109": [
-            "mapped_type"
-        ],
-        "minecraft:element_11": [
-            "mapped_type"
-        ],
-        "minecraft:element_110": [
-            "mapped_type"
-        ],
-        "minecraft:element_111": [
-            "mapped_type"
-        ],
-        "minecraft:element_112": [
-            "mapped_type"
-        ],
-        "minecraft:element_113": [
-            "mapped_type"
-        ],
-        "minecraft:element_114": [
-            "mapped_type"
-        ],
-        "minecraft:element_115": [
-            "mapped_type"
-        ],
-        "minecraft:element_116": [
-            "mapped_type"
-        ],
-        "minecraft:element_117": [
-            "mapped_type"
-        ],
-        "minecraft:element_118": [
-            "mapped_type"
-        ],
-        "minecraft:element_12": [
-            "mapped_type"
-        ],
-        "minecraft:element_13": [
-            "mapped_type"
-        ],
-        "minecraft:element_14": [
-            "mapped_type"
-        ],
-        "minecraft:element_15": [
-            "mapped_type"
-        ],
-        "minecraft:element_16": [
-            "mapped_type"
-        ],
-        "minecraft:element_17": [
-            "mapped_type"
-        ],
-        "minecraft:element_18": [
-            "mapped_type"
-        ],
-        "minecraft:element_19": [
-            "mapped_type"
-        ],
-        "minecraft:element_2": [
-            "mapped_type"
-        ],
-        "minecraft:element_20": [
-            "mapped_type"
-        ],
-        "minecraft:element_21": [
-            "mapped_type"
-        ],
-        "minecraft:element_22": [
-            "mapped_type"
-        ],
-        "minecraft:element_23": [
-            "mapped_type"
-        ],
-        "minecraft:element_24": [
-            "mapped_type"
-        ],
-        "minecraft:element_25": [
-            "mapped_type"
-        ],
-        "minecraft:element_26": [
-            "mapped_type"
-        ],
-        "minecraft:element_27": [
-            "mapped_type"
-        ],
-        "minecraft:element_28": [
-            "mapped_type"
-        ],
-        "minecraft:element_29": [
-            "mapped_type"
-        ],
-        "minecraft:element_3": [
-            "mapped_type"
-        ],
-        "minecraft:element_30": [
-            "mapped_type"
-        ],
-        "minecraft:element_31": [
-            "mapped_type"
-        ],
-        "minecraft:element_32": [
-            "mapped_type"
-        ],
-        "minecraft:element_33": [
-            "mapped_type"
-        ],
-        "minecraft:element_34": [
-            "mapped_type"
-        ],
-        "minecraft:element_35": [
-            "mapped_type"
-        ],
-        "minecraft:element_36": [
-            "mapped_type"
-        ],
-        "minecraft:element_37": [
-            "mapped_type"
-        ],
-        "minecraft:element_38": [
-            "mapped_type"
-        ],
-        "minecraft:element_39": [
-            "mapped_type"
-        ],
-        "minecraft:element_4": [
-            "mapped_type"
-        ],
-        "minecraft:element_40": [
-            "mapped_type"
-        ],
-        "minecraft:element_41": [
-            "mapped_type"
-        ],
-        "minecraft:element_42": [
-            "mapped_type"
-        ],
-        "minecraft:element_43": [
-            "mapped_type"
-        ],
-        "minecraft:element_44": [
-            "mapped_type"
-        ],
-        "minecraft:element_45": [
-            "mapped_type"
-        ],
-        "minecraft:element_46": [
-            "mapped_type"
-        ],
-        "minecraft:element_47": [
-            "mapped_type"
-        ],
-        "minecraft:element_48": [
-            "mapped_type"
-        ],
-        "minecraft:element_49": [
-            "mapped_type"
-        ],
-        "minecraft:element_5": [
-            "mapped_type"
-        ],
-        "minecraft:element_50": [
-            "mapped_type"
-        ],
-        "minecraft:element_51": [
-            "mapped_type"
-        ],
-        "minecraft:element_52": [
-            "mapped_type"
-        ],
-        "minecraft:element_53": [
-            "mapped_type"
-        ],
-        "minecraft:element_54": [
-            "mapped_type"
-        ],
-        "minecraft:element_55": [
-            "mapped_type"
-        ],
-        "minecraft:element_56": [
-            "mapped_type"
-        ],
-        "minecraft:element_57": [
-            "mapped_type"
-        ],
-        "minecraft:element_58": [
-            "mapped_type"
-        ],
-        "minecraft:element_59": [
-            "mapped_type"
-        ],
-        "minecraft:element_6": [
-            "mapped_type"
-        ],
-        "minecraft:element_60": [
-            "mapped_type"
-        ],
-        "minecraft:element_61": [
-            "mapped_type"
-        ],
-        "minecraft:element_62": [
-            "mapped_type"
-        ],
-        "minecraft:element_63": [
-            "mapped_type"
-        ],
-        "minecraft:element_64": [
-            "mapped_type"
-        ],
-        "minecraft:element_65": [
-            "mapped_type"
-        ],
-        "minecraft:element_66": [
-            "mapped_type"
-        ],
-        "minecraft:element_67": [
-            "mapped_type"
-        ],
-        "minecraft:element_68": [
-            "mapped_type"
-        ],
-        "minecraft:element_69": [
-            "mapped_type"
-        ],
-        "minecraft:element_7": [
-            "mapped_type"
-        ],
-        "minecraft:element_70": [
-            "mapped_type"
-        ],
-        "minecraft:element_71": [
-            "mapped_type"
-        ],
-        "minecraft:element_72": [
-            "mapped_type"
-        ],
-        "minecraft:element_73": [
-            "mapped_type"
-        ],
-        "minecraft:element_74": [
-            "mapped_type"
-        ],
-        "minecraft:element_75": [
-            "mapped_type"
-        ],
-        "minecraft:element_76": [
-            "mapped_type"
-        ],
-        "minecraft:element_77": [
-            "mapped_type"
-        ],
-        "minecraft:element_78": [
-            "mapped_type"
-        ],
-        "minecraft:element_79": [
-            "mapped_type"
-        ],
-        "minecraft:element_8": [
-            "mapped_type"
-        ],
-        "minecraft:element_80": [
-            "mapped_type"
-        ],
-        "minecraft:element_81": [
-            "mapped_type"
-        ],
-        "minecraft:element_82": [
-            "mapped_type"
-        ],
-        "minecraft:element_83": [
-            "mapped_type"
-        ],
-        "minecraft:element_84": [
-            "mapped_type"
-        ],
-        "minecraft:element_85": [
-            "mapped_type"
-        ],
-        "minecraft:element_86": [
-            "mapped_type"
-        ],
-        "minecraft:element_87": [
-            "mapped_type"
-        ],
-        "minecraft:element_88": [
-            "mapped_type"
-        ],
-        "minecraft:element_89": [
-            "mapped_type"
-        ],
-        "minecraft:element_9": [
-            "mapped_type"
-        ],
-        "minecraft:element_90": [
-            "mapped_type"
-        ],
-        "minecraft:element_91": [
-            "mapped_type"
-        ],
-        "minecraft:element_92": [
-            "mapped_type"
-        ],
-        "minecraft:element_93": [
-            "mapped_type"
-        ],
-        "minecraft:element_94": [
-            "mapped_type"
-        ],
-        "minecraft:element_95": [
-            "mapped_type"
-        ],
-        "minecraft:element_96": [
-            "mapped_type"
-        ],
-        "minecraft:element_97": [
-            "mapped_type"
-        ],
-        "minecraft:element_98": [
-            "mapped_type"
-        ],
-        "minecraft:element_99": [
-            "mapped_type"
-        ],
-        "minecraft:grass": [
-            "mapped_type"
-        ],
-        "minecraft:hay_block": [
-            "mapped_type"
-        ],
-        "minecraft:nether_brick_fence": [
-            "mapped_type"
-        ],
-        "minecraft:yellow_flower": [
-            "mapped_type"
+    "removedProperties2": {
+        "mapped_type": [
+            "minecraft:bone_block",
+            "minecraft:element_0",
+            "minecraft:element_1",
+            "minecraft:element_10",
+            "minecraft:element_100",
+            "minecraft:element_101",
+            "minecraft:element_102",
+            "minecraft:element_103",
+            "minecraft:element_104",
+            "minecraft:element_105",
+            "minecraft:element_106",
+            "minecraft:element_107",
+            "minecraft:element_108",
+            "minecraft:element_109",
+            "minecraft:element_11",
+            "minecraft:element_110",
+            "minecraft:element_111",
+            "minecraft:element_112",
+            "minecraft:element_113",
+            "minecraft:element_114",
+            "minecraft:element_115",
+            "minecraft:element_116",
+            "minecraft:element_117",
+            "minecraft:element_118",
+            "minecraft:element_12",
+            "minecraft:element_13",
+            "minecraft:element_14",
+            "minecraft:element_15",
+            "minecraft:element_16",
+            "minecraft:element_17",
+            "minecraft:element_18",
+            "minecraft:element_19",
+            "minecraft:element_2",
+            "minecraft:element_20",
+            "minecraft:element_21",
+            "minecraft:element_22",
+            "minecraft:element_23",
+            "minecraft:element_24",
+            "minecraft:element_25",
+            "minecraft:element_26",
+            "minecraft:element_27",
+            "minecraft:element_28",
+            "minecraft:element_29",
+            "minecraft:element_3",
+            "minecraft:element_30",
+            "minecraft:element_31",
+            "minecraft:element_32",
+            "minecraft:element_33",
+            "minecraft:element_34",
+            "minecraft:element_35",
+            "minecraft:element_36",
+            "minecraft:element_37",
+            "minecraft:element_38",
+            "minecraft:element_39",
+            "minecraft:element_4",
+            "minecraft:element_40",
+            "minecraft:element_41",
+            "minecraft:element_42",
+            "minecraft:element_43",
+            "minecraft:element_44",
+            "minecraft:element_45",
+            "minecraft:element_46",
+            "minecraft:element_47",
+            "minecraft:element_48",
+            "minecraft:element_49",
+            "minecraft:element_5",
+            "minecraft:element_50",
+            "minecraft:element_51",
+            "minecraft:element_52",
+            "minecraft:element_53",
+            "minecraft:element_54",
+            "minecraft:element_55",
+            "minecraft:element_56",
+            "minecraft:element_57",
+            "minecraft:element_58",
+            "minecraft:element_59",
+            "minecraft:element_6",
+            "minecraft:element_60",
+            "minecraft:element_61",
+            "minecraft:element_62",
+            "minecraft:element_63",
+            "minecraft:element_64",
+            "minecraft:element_65",
+            "minecraft:element_66",
+            "minecraft:element_67",
+            "minecraft:element_68",
+            "minecraft:element_69",
+            "minecraft:element_7",
+            "minecraft:element_70",
+            "minecraft:element_71",
+            "minecraft:element_72",
+            "minecraft:element_73",
+            "minecraft:element_74",
+            "minecraft:element_75",
+            "minecraft:element_76",
+            "minecraft:element_77",
+            "minecraft:element_78",
+            "minecraft:element_79",
+            "minecraft:element_8",
+            "minecraft:element_80",
+            "minecraft:element_81",
+            "minecraft:element_82",
+            "minecraft:element_83",
+            "minecraft:element_84",
+            "minecraft:element_85",
+            "minecraft:element_86",
+            "minecraft:element_87",
+            "minecraft:element_88",
+            "minecraft:element_89",
+            "minecraft:element_9",
+            "minecraft:element_90",
+            "minecraft:element_91",
+            "minecraft:element_92",
+            "minecraft:element_93",
+            "minecraft:element_94",
+            "minecraft:element_95",
+            "minecraft:element_96",
+            "minecraft:element_97",
+            "minecraft:element_98",
+            "minecraft:element_99",
+            "minecraft:grass",
+            "minecraft:hay_block",
+            "minecraft:nether_brick_fence",
+            "minecraft:yellow_flower"
         ]
     },
-    "renamedProperties": {
-        "minecraft:blast_furnace": {
-            "facing_direction": "direction"
+    "renamedProperties2": {
+        "axis": {
+            "minecraft:portal": "portal_axis"
         },
-        "minecraft:brown_mushroom_block": {
-            "mapped_type": "huge_mushroom_bits"
+        "facing_direction": {
+            "minecraft:blast_furnace": "direction",
+            "minecraft:smoker": "direction"
         },
-        "minecraft:chemistry_table": {
-            "mapped_type": "chemistry_table_type"
-        },
-        "minecraft:cobblestone_wall": {
-            "mapped_type": "wall_block_type"
-        },
-        "minecraft:coral": {
-            "mapped_type": "coral_color"
-        },
-        "minecraft:coral_block": {
-            "mapped_type": "coral_color"
-        },
-        "minecraft:coral_fan": {
-            "mapped_type": "coral_color"
-        },
-        "minecraft:coral_fan_dead": {
-            "mapped_type": "coral_color"
-        },
-        "minecraft:coral_fan_hang": {
-            "mapped_type": "coral_hang_type_bit"
-        },
-        "minecraft:coral_fan_hang2": {
-            "mapped_type": "coral_hang_type_bit"
-        },
-        "minecraft:coral_fan_hang3": {
-            "mapped_type": "coral_hang_type_bit"
-        },
-        "minecraft:dirt": {
-            "mapped_type": "dirt_type"
-        },
-        "minecraft:double_plant": {
-            "mapped_type": "double_plant_type"
-        },
-        "minecraft:double_stone_slab": {
-            "mapped_type": "stone_slab_type"
-        },
-        "minecraft:double_stone_slab2": {
-            "mapped_type": "stone_slab_type_2"
-        },
-        "minecraft:double_stone_slab3": {
-            "mapped_type": "stone_slab_type_3"
-        },
-        "minecraft:double_stone_slab4": {
-            "mapped_type": "stone_slab_type_4"
-        },
-        "minecraft:double_wooden_slab": {
-            "mapped_type": "wood_type"
-        },
-        "minecraft:fence": {
-            "mapped_type": "wood_type"
-        },
-        "minecraft:leaves": {
-            "mapped_type": "old_leaf_type"
-        },
-        "minecraft:leaves2": {
-            "mapped_type": "new_leaf_type"
-        },
-        "minecraft:log": {
-            "mapped_type": "old_log_type"
-        },
-        "minecraft:log2": {
-            "mapped_type": "new_log_type"
-        },
-        "minecraft:monster_egg": {
-            "mapped_type": "monster_egg_stone_type"
-        },
-        "minecraft:planks": {
-            "mapped_type": "wood_type"
-        },
-        "minecraft:portal": {
-            "axis": "portal_axis"
-        },
-        "minecraft:prismarine": {
-            "mapped_type": "prismarine_block_type"
-        },
-        "minecraft:purpur_block": {
-            "mapped_type": "chisel_type"
-        },
-        "minecraft:quartz_block": {
-            "mapped_type": "chisel_type"
-        },
-        "minecraft:red_flower": {
-            "mapped_type": "flower_type"
-        },
-        "minecraft:red_mushroom_block": {
-            "mapped_type": "huge_mushroom_bits"
-        },
-        "minecraft:red_sandstone": {
-            "mapped_type": "sand_stone_type"
-        },
-        "minecraft:sand": {
-            "mapped_type": "sand_type"
-        },
-        "minecraft:sandstone": {
-            "mapped_type": "sand_stone_type"
-        },
-        "minecraft:seagrass": {
-            "mapped_type": "sea_grass_type"
-        },
-        "minecraft:smoker": {
-            "facing_direction": "direction"
-        },
-        "minecraft:sponge": {
-            "mapped_type": "sponge_type"
-        },
-        "minecraft:stone": {
-            "mapped_type": "stone_type"
-        },
-        "minecraft:stone_slab": {
-            "mapped_type": "stone_slab_type"
-        },
-        "minecraft:stone_slab2": {
-            "mapped_type": "stone_slab_type_2"
-        },
-        "minecraft:stone_slab3": {
-            "mapped_type": "stone_slab_type_3"
-        },
-        "minecraft:stone_slab4": {
-            "mapped_type": "stone_slab_type_4"
-        },
-        "minecraft:stonebrick": {
-            "mapped_type": "stone_brick_type"
-        },
-        "minecraft:structure_block": {
-            "mapped_type": "structure_block_type"
-        },
-        "minecraft:tallgrass": {
-            "mapped_type": "tall_grass_type"
-        },
-        "minecraft:wooden_slab": {
-            "mapped_type": "wood_type"
+        "mapped_type": {
+            "minecraft:brown_mushroom_block": "huge_mushroom_bits",
+            "minecraft:chemistry_table": "chemistry_table_type",
+            "minecraft:cobblestone_wall": "wall_block_type",
+            "minecraft:coral": "coral_color",
+            "minecraft:coral_block": "coral_color",
+            "minecraft:coral_fan": "coral_color",
+            "minecraft:coral_fan_dead": "coral_color",
+            "minecraft:coral_fan_hang": "coral_hang_type_bit",
+            "minecraft:coral_fan_hang2": "coral_hang_type_bit",
+            "minecraft:coral_fan_hang3": "coral_hang_type_bit",
+            "minecraft:dirt": "dirt_type",
+            "minecraft:double_plant": "double_plant_type",
+            "minecraft:double_stone_slab": "stone_slab_type",
+            "minecraft:double_stone_slab2": "stone_slab_type_2",
+            "minecraft:double_stone_slab3": "stone_slab_type_3",
+            "minecraft:double_stone_slab4": "stone_slab_type_4",
+            "minecraft:double_wooden_slab": "wood_type",
+            "minecraft:fence": "wood_type",
+            "minecraft:leaves": "old_leaf_type",
+            "minecraft:leaves2": "new_leaf_type",
+            "minecraft:log": "old_log_type",
+            "minecraft:log2": "new_log_type",
+            "minecraft:monster_egg": "monster_egg_stone_type",
+            "minecraft:planks": "wood_type",
+            "minecraft:prismarine": "prismarine_block_type",
+            "minecraft:purpur_block": "chisel_type",
+            "minecraft:quartz_block": "chisel_type",
+            "minecraft:red_flower": "flower_type",
+            "minecraft:red_mushroom_block": "huge_mushroom_bits",
+            "minecraft:red_sandstone": "sand_stone_type",
+            "minecraft:sand": "sand_type",
+            "minecraft:sandstone": "sand_stone_type",
+            "minecraft:seagrass": "sea_grass_type",
+            "minecraft:sponge": "sponge_type",
+            "minecraft:stone": "stone_type",
+            "minecraft:stone_slab": "stone_slab_type",
+            "minecraft:stone_slab2": "stone_slab_type_2",
+            "minecraft:stone_slab3": "stone_slab_type_3",
+            "minecraft:stone_slab4": "stone_slab_type_4",
+            "minecraft:stonebrick": "stone_brick_type",
+            "minecraft:structure_block": "structure_block_type",
+            "minecraft:tallgrass": "tall_grass_type",
+            "minecraft:wooden_slab": "wood_type"
         }
     },
-    "remappedPropertyValues": {
-        "minecraft:blast_furnace": {
-            "facing_direction": "facing_direction_00"
+    "remappedPropertyValues2": {
+        "facing_direction": {
+            "minecraft:blast_furnace": "facing_direction_00",
+            "minecraft:smoker": "facing_direction_00"
         },
-        "minecraft:chemistry_table": {
-            "mapped_type": "mapped_type_00"
-        },
-        "minecraft:cobblestone_wall": {
-            "mapped_type": "mapped_type_01"
-        },
-        "minecraft:coral": {
-            "mapped_type": "mapped_type_02"
-        },
-        "minecraft:coral_block": {
-            "mapped_type": "mapped_type_03"
-        },
-        "minecraft:coral_fan": {
-            "mapped_type": "mapped_type_03"
-        },
-        "minecraft:coral_fan_dead": {
-            "mapped_type": "mapped_type_03"
-        },
-        "minecraft:coral_fan_hang": {
-            "mapped_type": "mapped_type_04"
-        },
-        "minecraft:coral_fan_hang2": {
-            "mapped_type": "mapped_type_04"
-        },
-        "minecraft:coral_fan_hang3": {
-            "mapped_type": "mapped_type_04"
-        },
-        "minecraft:dirt": {
-            "mapped_type": "mapped_type_05"
-        },
-        "minecraft:double_plant": {
-            "mapped_type": "mapped_type_06"
-        },
-        "minecraft:double_stone_slab": {
-            "mapped_type": "mapped_type_07"
-        },
-        "minecraft:double_stone_slab2": {
-            "mapped_type": "mapped_type_08"
-        },
-        "minecraft:double_stone_slab3": {
-            "mapped_type": "mapped_type_09"
-        },
-        "minecraft:double_stone_slab4": {
-            "mapped_type": "mapped_type_10"
-        },
-        "minecraft:double_wooden_slab": {
-            "mapped_type": "mapped_type_11"
-        },
-        "minecraft:fence": {
-            "mapped_type": "mapped_type_11"
-        },
-        "minecraft:leaves": {
-            "mapped_type": "mapped_type_12"
-        },
-        "minecraft:leaves2": {
-            "mapped_type": "mapped_type_13"
-        },
-        "minecraft:log": {
-            "mapped_type": "mapped_type_12"
-        },
-        "minecraft:log2": {
-            "mapped_type": "mapped_type_13"
-        },
-        "minecraft:monster_egg": {
-            "mapped_type": "mapped_type_14"
-        },
-        "minecraft:planks": {
-            "mapped_type": "mapped_type_11"
-        },
-        "minecraft:prismarine": {
-            "mapped_type": "mapped_type_15"
-        },
-        "minecraft:purpur_block": {
-            "mapped_type": "mapped_type_16"
-        },
-        "minecraft:quartz_block": {
-            "mapped_type": "mapped_type_16"
-        },
-        "minecraft:red_flower": {
-            "mapped_type": "mapped_type_17"
-        },
-        "minecraft:red_sandstone": {
-            "mapped_type": "mapped_type_18"
-        },
-        "minecraft:sand": {
-            "mapped_type": "mapped_type_19"
-        },
-        "minecraft:sandstone": {
-            "mapped_type": "mapped_type_18"
-        },
-        "minecraft:seagrass": {
-            "mapped_type": "mapped_type_20"
-        },
-        "minecraft:smoker": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:sponge": {
-            "mapped_type": "mapped_type_21"
-        },
-        "minecraft:stone": {
-            "mapped_type": "mapped_type_22"
-        },
-        "minecraft:stone_slab": {
-            "mapped_type": "mapped_type_07"
-        },
-        "minecraft:stone_slab2": {
-            "mapped_type": "mapped_type_08"
-        },
-        "minecraft:stone_slab3": {
-            "mapped_type": "mapped_type_09"
-        },
-        "minecraft:stone_slab4": {
-            "mapped_type": "mapped_type_10"
-        },
-        "minecraft:stonebrick": {
-            "mapped_type": "mapped_type_23"
-        },
-        "minecraft:structure_block": {
-            "mapped_type": "mapped_type_24"
-        },
-        "minecraft:tallgrass": {
-            "mapped_type": "mapped_type_25"
-        },
-        "minecraft:wooden_slab": {
-            "mapped_type": "mapped_type_11"
+        "mapped_type": {
+            "minecraft:chemistry_table": "mapped_type_00",
+            "minecraft:cobblestone_wall": "mapped_type_01",
+            "minecraft:coral": "mapped_type_02",
+            "minecraft:coral_block": "mapped_type_03",
+            "minecraft:coral_fan": "mapped_type_03",
+            "minecraft:coral_fan_dead": "mapped_type_03",
+            "minecraft:coral_fan_hang": "mapped_type_04",
+            "minecraft:coral_fan_hang2": "mapped_type_04",
+            "minecraft:coral_fan_hang3": "mapped_type_04",
+            "minecraft:dirt": "mapped_type_05",
+            "minecraft:double_plant": "mapped_type_06",
+            "minecraft:double_stone_slab": "mapped_type_07",
+            "minecraft:double_stone_slab2": "mapped_type_08",
+            "minecraft:double_stone_slab3": "mapped_type_09",
+            "minecraft:double_stone_slab4": "mapped_type_10",
+            "minecraft:double_wooden_slab": "mapped_type_11",
+            "minecraft:fence": "mapped_type_11",
+            "minecraft:leaves": "mapped_type_12",
+            "minecraft:leaves2": "mapped_type_13",
+            "minecraft:log": "mapped_type_12",
+            "minecraft:log2": "mapped_type_13",
+            "minecraft:monster_egg": "mapped_type_14",
+            "minecraft:planks": "mapped_type_11",
+            "minecraft:prismarine": "mapped_type_15",
+            "minecraft:purpur_block": "mapped_type_16",
+            "minecraft:quartz_block": "mapped_type_16",
+            "minecraft:red_flower": "mapped_type_17",
+            "minecraft:red_sandstone": "mapped_type_18",
+            "minecraft:sand": "mapped_type_19",
+            "minecraft:sandstone": "mapped_type_18",
+            "minecraft:seagrass": "mapped_type_20",
+            "minecraft:sponge": "mapped_type_21",
+            "minecraft:stone": "mapped_type_22",
+            "minecraft:stone_slab": "mapped_type_07",
+            "minecraft:stone_slab2": "mapped_type_08",
+            "minecraft:stone_slab3": "mapped_type_09",
+            "minecraft:stone_slab4": "mapped_type_10",
+            "minecraft:stonebrick": "mapped_type_23",
+            "minecraft:structure_block": "mapped_type_24",
+            "minecraft:tallgrass": "mapped_type_25",
+            "minecraft:wooden_slab": "mapped_type_11"
         }
     },
     "remappedPropertyValuesIndex": {

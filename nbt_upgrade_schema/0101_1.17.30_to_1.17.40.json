@@ -3,9 +3,9 @@
     "maxVersionMinor": 16,
     "maxVersionPatch": 210,
     "maxVersionRevision": 3,
-    "addedProperties": {
-        "minecraft:sculk_catalyst": {
-            "bloom": {
+    "addedProperties2": {
+        "bloom": {
+            "minecraft:sculk_catalyst": {
                 "byte": 0
             }
         }

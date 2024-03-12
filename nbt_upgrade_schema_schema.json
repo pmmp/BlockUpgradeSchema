@@ -59,6 +59,16 @@
 				}
 			}
 		},
+		"renamedProperties2": {
+			"type": "object",
+			"additionalProperties": {
+				"type": "object",
+				"additionalProperties": {
+					"type": "string"
+				}
+			},
+			"$comment": "propertyName -> blockName - swapped vs renamedProperties, takes less space"
+		},
 		"addedProperties": {
 			"type": "object",
 			"additionalProperties": {
@@ -67,6 +77,16 @@
 					"$ref": "#/$defs/blockStateProperty"
 				}
 			}
+		},
+		"addedProperties2": {
+			"type": "object",
+			"additionalProperties": {
+				"type": "object",
+				"additionalProperties": {
+					"$ref": "#/$defs/blockStateProperty"
+				}
+			},
+			"$comment": "propertyName -> blockName - swapped vs addedProperties, takes less space"
 		},
 		"removedProperties": {
 			"type": "object",
@@ -77,6 +97,16 @@
 				}
 			}
 		},
+		"removedProperties2": {
+			"type": "object",
+			"additionalProperties": {
+				"type": "array",
+				"items": {
+					"type": "string"
+				}
+			},
+			"$comment": "propertyName -> list of blockName - swapped vs removedProperties, takes less space"
+		},
 		"remappedPropertyValues": {
 			"type": "object",
 			"additionalProperties": {
@@ -85,6 +115,16 @@
 					"type": "string"
 				}
 			}
+		},
+		"remappedPropertyValues2": {
+			"type": "object",
+			"additionalProperties": {
+				"type": "object",
+				"additionalProperties": {
+					"type": "string"
+				}
+			},
+			"$comment": "propertyName -> blockName - swapped vs remappedPropertyValues, takes less space"
 		},
 		"remappedPropertyValuesIndex": {
 			"type": "object",

@@ -6,44 +6,36 @@
     "renamedIds": {
         "minecraft:lava_cauldron": "minecraft:cauldron"
     },
-    "addedProperties": {
-        "minecraft:calibrated_sculk_sensor": {
-            "sculk_sensor_phase": {
+    "addedProperties2": {
+        "sculk_sensor_phase": {
+            "minecraft:calibrated_sculk_sensor": {
                 "int": 0
             }
         }
     },
-    "removedProperties": {
-        "minecraft:calibrated_sculk_sensor": [
-            "powered_bit"
+    "removedProperties2": {
+        "powered_bit": [
+            "minecraft:calibrated_sculk_sensor"
         ]
     },
-    "renamedProperties": {
-        "minecraft:carved_pumpkin": {
-            "direction": "minecraft:cardinal_direction"
+    "renamedProperties2": {
+        "direction": {
+            "minecraft:carved_pumpkin": "minecraft:cardinal_direction",
+            "minecraft:lit_pumpkin": "minecraft:cardinal_direction",
+            "minecraft:pumpkin": "minecraft:cardinal_direction"
         },
-        "minecraft:lit_pumpkin": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:pumpkin": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:sculk_sensor": {
-            "powered_bit": "sculk_sensor_phase"
+        "powered_bit": {
+            "minecraft:sculk_sensor": "sculk_sensor_phase"
         }
     },
-    "remappedPropertyValues": {
-        "minecraft:carved_pumpkin": {
-            "direction": "direction_00"
+    "remappedPropertyValues2": {
+        "direction": {
+            "minecraft:carved_pumpkin": "direction_00",
+            "minecraft:lit_pumpkin": "direction_00",
+            "minecraft:pumpkin": "direction_00"
         },
-        "minecraft:lit_pumpkin": {
-            "direction": "direction_00"
-        },
-        "minecraft:pumpkin": {
-            "direction": "direction_00"
-        },
-        "minecraft:sculk_sensor": {
-            "powered_bit": "powered_bit_00"
+        "powered_bit": {
+            "minecraft:sculk_sensor": "powered_bit_00"
         }
     },
     "remappedPropertyValuesIndex": {

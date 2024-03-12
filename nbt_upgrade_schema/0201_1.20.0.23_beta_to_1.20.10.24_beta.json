@@ -3,14 +3,14 @@
     "maxVersionMinor": 20,
     "maxVersionPatch": 10,
     "maxVersionRevision": 32,
-    "renamedProperties": {
-        "minecraft:observer": {
-            "facing_direction": "minecraft:facing_direction"
+    "renamedProperties2": {
+        "facing_direction": {
+            "minecraft:observer": "minecraft:facing_direction"
         }
     },
-    "remappedPropertyValues": {
-        "minecraft:observer": {
-            "facing_direction": "facing_direction_00"
+    "remappedPropertyValues2": {
+        "facing_direction": {
+            "minecraft:observer": "facing_direction_00"
         }
     },
     "remappedPropertyValuesIndex": {

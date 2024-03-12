@@ -3,9 +3,9 @@
     "maxVersionMinor": 18,
     "maxVersionPatch": 10,
     "maxVersionRevision": 1,
-    "removedProperties": {
-        "minecraft:chiseled_bookshelf": [
-            "last_interacted_slot"
+    "removedProperties2": {
+        "last_interacted_slot": [
+            "minecraft:chiseled_bookshelf"
         ]
     }
 }

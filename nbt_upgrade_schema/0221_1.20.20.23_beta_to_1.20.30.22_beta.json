@@ -3,122 +3,54 @@
     "maxVersionMinor": 20,
     "maxVersionPatch": 30,
     "maxVersionRevision": 50,
-    "renamedProperties": {
-        "minecraft:anvil": {
-            "direction": "minecraft:cardinal_direction"
+    "renamedProperties2": {
+        "direction": {
+            "minecraft:anvil": "minecraft:cardinal_direction",
+            "minecraft:big_dripleaf": "minecraft:cardinal_direction",
+            "minecraft:calibrated_sculk_sensor": "minecraft:cardinal_direction",
+            "minecraft:campfire": "minecraft:cardinal_direction",
+            "minecraft:end_portal_frame": "minecraft:cardinal_direction",
+            "minecraft:lectern": "minecraft:cardinal_direction",
+            "minecraft:pink_petals": "minecraft:cardinal_direction",
+            "minecraft:powered_comparator": "minecraft:cardinal_direction",
+            "minecraft:powered_repeater": "minecraft:cardinal_direction",
+            "minecraft:small_dripleaf_block": "minecraft:cardinal_direction",
+            "minecraft:soul_campfire": "minecraft:cardinal_direction",
+            "minecraft:unpowered_comparator": "minecraft:cardinal_direction",
+            "minecraft:unpowered_repeater": "minecraft:cardinal_direction"
         },
-        "minecraft:big_dripleaf": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:blast_furnace": {
-            "facing_direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:calibrated_sculk_sensor": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:campfire": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:end_portal_frame": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:furnace": {
-            "facing_direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:lectern": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:lit_blast_furnace": {
-            "facing_direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:lit_furnace": {
-            "facing_direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:lit_smoker": {
-            "facing_direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:pink_petals": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:powered_comparator": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:powered_repeater": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:small_dripleaf_block": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:smoker": {
-            "facing_direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:soul_campfire": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:unpowered_comparator": {
-            "direction": "minecraft:cardinal_direction"
-        },
-        "minecraft:unpowered_repeater": {
-            "direction": "minecraft:cardinal_direction"
+        "facing_direction": {
+            "minecraft:blast_furnace": "minecraft:cardinal_direction",
+            "minecraft:furnace": "minecraft:cardinal_direction",
+            "minecraft:lit_blast_furnace": "minecraft:cardinal_direction",
+            "minecraft:lit_furnace": "minecraft:cardinal_direction",
+            "minecraft:lit_smoker": "minecraft:cardinal_direction",
+            "minecraft:smoker": "minecraft:cardinal_direction"
         }
     },
-    "remappedPropertyValues": {
-        "minecraft:anvil": {
-            "direction": "direction_00"
+    "remappedPropertyValues2": {
+        "direction": {
+            "minecraft:anvil": "direction_00",
+            "minecraft:big_dripleaf": "direction_00",
+            "minecraft:calibrated_sculk_sensor": "direction_00",
+            "minecraft:campfire": "direction_00",
+            "minecraft:end_portal_frame": "direction_00",
+            "minecraft:lectern": "direction_00",
+            "minecraft:pink_petals": "direction_00",
+            "minecraft:powered_comparator": "direction_00",
+            "minecraft:powered_repeater": "direction_00",
+            "minecraft:small_dripleaf_block": "direction_00",
+            "minecraft:soul_campfire": "direction_00",
+            "minecraft:unpowered_comparator": "direction_00",
+            "minecraft:unpowered_repeater": "direction_00"
         },
-        "minecraft:big_dripleaf": {
-            "direction": "direction_00"
-        },
-        "minecraft:blast_furnace": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:calibrated_sculk_sensor": {
-            "direction": "direction_00"
-        },
-        "minecraft:campfire": {
-            "direction": "direction_00"
-        },
-        "minecraft:end_portal_frame": {
-            "direction": "direction_00"
-        },
-        "minecraft:furnace": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:lectern": {
-            "direction": "direction_00"
-        },
-        "minecraft:lit_blast_furnace": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:lit_furnace": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:lit_smoker": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:pink_petals": {
-            "direction": "direction_00"
-        },
-        "minecraft:powered_comparator": {
-            "direction": "direction_00"
-        },
-        "minecraft:powered_repeater": {
-            "direction": "direction_00"
-        },
-        "minecraft:small_dripleaf_block": {
-            "direction": "direction_00"
-        },
-        "minecraft:smoker": {
-            "facing_direction": "facing_direction_00"
-        },
-        "minecraft:soul_campfire": {
-            "direction": "direction_00"
-        },
-        "minecraft:unpowered_comparator": {
-            "direction": "direction_00"
-        },
-        "minecraft:unpowered_repeater": {
-            "direction": "direction_00"
+        "facing_direction": {
+            "minecraft:blast_furnace": "facing_direction_00",
+            "minecraft:furnace": "facing_direction_00",
+            "minecraft:lit_blast_furnace": "facing_direction_00",
+            "minecraft:lit_furnace": "facing_direction_00",
+            "minecraft:lit_smoker": "facing_direction_00",
+            "minecraft:smoker": "facing_direction_00"
         }
     },
     "remappedPropertyValuesIndex": {

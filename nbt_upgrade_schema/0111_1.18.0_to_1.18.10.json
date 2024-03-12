@@ -3,17 +3,15 @@
     "maxVersionMinor": 18,
     "maxVersionPatch": 10,
     "maxVersionRevision": 1,
-    "removedProperties": {
-        "minecraft:skull": [
-            "no_drop_bit"
+    "removedProperties2": {
+        "no_drop_bit": [
+            "minecraft:skull"
         ]
     },
-    "remappedPropertyValues": {
-        "minecraft:glow_lichen": {
-            "multi_face_direction_bits": "multi_face_direction_bits_00"
-        },
-        "minecraft:sculk_vein": {
-            "multi_face_direction_bits": "multi_face_direction_bits_00"
+    "remappedPropertyValues2": {
+        "multi_face_direction_bits": {
+            "minecraft:glow_lichen": "multi_face_direction_bits_00",
+            "minecraft:sculk_vein": "multi_face_direction_bits_00"
         }
     },
     "remappedPropertyValuesIndex": {

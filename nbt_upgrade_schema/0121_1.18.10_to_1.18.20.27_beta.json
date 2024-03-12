@@ -6,19 +6,15 @@
     "renamedIds": {
         "minecraft:frog_egg": "minecraft:frog_spawn"
     },
-    "addedProperties": {
-        "minecraft:ochre_froglight": {
-            "pillar_axis": {
+    "addedProperties2": {
+        "pillar_axis": {
+            "minecraft:ochre_froglight": {
                 "string": "y"
-            }
-        },
-        "minecraft:pearlescent_froglight": {
-            "pillar_axis": {
+            },
+            "minecraft:pearlescent_froglight": {
                 "string": "y"
-            }
-        },
-        "minecraft:verdant_froglight": {
-            "pillar_axis": {
+            },
+            "minecraft:verdant_froglight": {
                 "string": "y"
             }
         }
